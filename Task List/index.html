@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>TASK LIST</title>
+  </head>
+  <body class="container pt-5">
+    <h3 class="pb-2">Tesk List</h3>
+    <form id="task_form">
+      <input type="text" id="new_task" placeholder="New Task" />
+      <input type="submit" value="Add Task" />
+    </form>
+    <hr />
+    <h3 class="pb-2 pt-5">Tasks</h3>
+    <input type="text" id="task_filter" placeholder="Task Filter" />
+    <hr />
+    <ul id="task_list"></ul>
+    <button class="btn btn-outline-secondary mt-4" id="clear_task">
+      Clear Task
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
